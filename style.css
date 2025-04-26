@@ -473,6 +473,21 @@ header nav ul li a:hover {
   color: rgb(39, 120, 167);
   z-index: 2000;
 }
+.vid-conf:hover {
+  color: orangered;
+}
+.games:hover {
+  color: orangered;
+}
+.ai-tools:hover {
+  color: orangered;
+}
+.easier:hover {
+  color: orangered;
+}
+.anywhere:hover {
+  color: orangered;
+}
 @media (max-width: 480px) {
   .menu-menu {
     top: 92%;
