@@ -294,7 +294,7 @@ header nav ul li a:hover {
 @media (max-width: 480px) {
   .welcome-msg {
     position: relative;
-    top: 450px;
+    top: 420px;
     left: 5%;
     width: 90%;
   }
