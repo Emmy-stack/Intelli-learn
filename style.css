@@ -500,7 +500,7 @@ header nav ul li a:hover {
 .menu-btn1:active .menu-menu {
   display: block;
 }
-.btm-pic {
+/*.btm-pic {
   position: relative;
   opacity: ;
   top: 400px;
@@ -523,4 +523,4 @@ header nav ul li a:hover {
     font-size: 20px;
     top: 330px;
   }
-}
+}*/
