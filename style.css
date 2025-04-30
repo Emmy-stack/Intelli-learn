@@ -33,10 +33,11 @@ header {
   /*background-color: #333;*/
   background-color: greenyellow;
   color: white;
-  padding: 5px;
   position: fixed;
   z-index: 1000;
   width: 100%;
+  top: 0%;
+  left: 0%;
 }
 
 header nav ul {
@@ -154,27 +155,28 @@ header nav ul li a:hover {
     width: 50%;
     font-size: 12px;
     left: 26%;
+    top: 1%;
   }
   .search-button {
     padding: 8px;
     width: 8%;
     left: 80%;
-    top: 1.3%;
+    top: 0.5%;
   }
 }
 
 /*SLIDES BEGIN*/
 .slider-container {
   position: absolute;
-  top: 35%;
+  top: 70%;
   right: 30px;
   transform: translateY(-50%);
-  width: 600px;
+  width: 1000px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  height: 450px;
-  left: 41%;
+  height: 700px;
+  left: 10%;
 }
 
 .slider {
@@ -225,7 +227,7 @@ header nav ul li a:hover {
     height: 400px;
   }
   .slider-container {
-    left: 18%;
+    left: 8%;
     top: 320px;
   }
 }
@@ -253,7 +255,7 @@ header nav ul li a:hover {
   font-size: 17px;
   position: relative;
   left: 10%;
-  width: 30%;
+  width: 80%;
   height: 430px;
   align-content: center;
   font-family: "Oswald", sans-serif;
@@ -261,8 +263,9 @@ header nav ul li a:hover {
   background: linear-gradient(to right, rgb(7, 61, 92), rgb(39, 120, 167));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  top: 800px;
 }
-@media (min-width: 1050px) {
+/*@media (min-width: 1050px) {
   .welcome-msg {
     top: 110px;
 
@@ -276,7 +279,7 @@ header nav ul li a:hover {
     -webkit-text-fill-color: transparent;
   }
 }
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
   .welcome-msg {
     left: 10%;
     width: 80%;
@@ -284,7 +287,7 @@ header nav ul li a:hover {
   }
   .slider-container {
   }
-}
+}*/
 @media (max-width: 768px) {
   .welcome-msg {
     top: 830px;
@@ -323,8 +326,8 @@ header nav ul li a:hover {
   width: 100px;
   height: 100px;
   position: relative;
-  left: 47%;
-  top: 90px;
+  left: 82%;
+  top: -370px;
   cursor: pointer;
   border: 3px solid;
   z-index: 1;
@@ -349,7 +352,7 @@ header nav ul li a:hover {
 }
 .neon-ring {
   position: relative;
-  left: 43%;
+  left: 82%;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -381,6 +384,9 @@ header nav ul li a:hover {
   left: -23%;
 }
 @media (max-width: 480px) {
+  .menu-btn {
+    left: 0%;
+  }
   .menu-stuff {
     width: 450px;
   }
@@ -399,9 +405,15 @@ header nav ul li a:hover {
   font-family: sans-serif;
 }
 
-.popup a:hover {
-  text-decoration: underline;
-}
+/*.popup :hover {
+  background: linear-gradient(
+    to right,
+    rgb(186, 209, 83),
+    yellowgreen,
+    rgb(186, 209, 83)
+  );
+  color: rgb(39, 120, 167);
+}*/
 .menu-btn:active .popup {
   display: block;
 }
@@ -412,7 +424,7 @@ header nav ul li a:hover {
 .neon-ring:hover .popup {
   display: block;
 }
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {
   .neon-ring {
     top: 250px;
     left: 40%;
@@ -436,7 +448,7 @@ header nav ul li a:hover {
     width: 700px;
     height: 700px;
   }
-}
+}*/
 .menu-btn1 {
   cursor: pointer;
   position: fixed;
